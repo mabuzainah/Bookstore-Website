@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/checkout.css">
+<!--===============================================================================================-->
+<!-- Latest compiled and minified BootstrapCSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  
+<!--   Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700|Playfair+Display:400,700" rel="stylesheet">
+
+	<title>
+        Checkout
+	</title>
+</head>
+    <body>
+	<div class="wrapper">
+		<h1>Checkout</h1>
+
+		<div class="left col col-md-6">
+			<div class="customer-info">
+				<h2><span>1</span> Customer</h2>
+                <label for="fName">First Name</label> <input class="form-control" id="usr" type="text">
+                <label for="lName">Last Name</label> <input class="form-control" id="lName" type="text">
+                <label for="usr">Email</label> <input class="form-control" id="usr" type="text">
+			</div>
+
+
+			<div class="customer-pay">
+				<h2><span>2</span> Payment</h2>
+
+
+				<label for="fname">Accepted Cards</label>
+				<div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                </div>
+
+				<div class="form-group">
+					<label for="usr">Cardholder Name</label> <input class="form-control" id="usr" type="text" required>
+				</div>
+
+
+				<div class="form-group">
+					<label for="num">Card Number</label> <input class="form-control" id="num" type="number" required>
+				</div>
+
+
+				<div class="form-group">
+					<label for="usr">Expiration Date</label> <input class="form-control" id="usr" type="text" required>
+				</div>
+				<button class="btn " type="submit">Submit</button>
+			</div>
+
+
+			<div class="customer-info">
+				<h2><span>3</span> Shipping Details</h2>
+                <row>
+                <column>
+                    <label for="fName">Shipping Address</label> <input class="form-control" id="usr" type="text" required>
+                    </column>
+                    <column>
+                    <label for="lName">Country</label> <input class="form-control" id="lName" type="text" required>
+                    </column>
+                </row>
+                
+                
+                <label for="usr">Postal Code</label> <input class="form-control" id="usr" type="text" required>
+			</div>
+		</div>
+
+
+		<div class="right col col-md-6">
+			<div class="customer-order">
+				<h2><span>4</span> Order</h2>
+
+
+				<p>Congratulations you qualify for free shipping!</p>
+				<br>
+
+
+				<p><span>The Hunger Game Series: The Hunger Games </span>
+				</p>
+
+
+				<p>1 x $19.00</p>
+				<br>
+
+
+				<p><span>The Hunger Game Series: Catching Fire</span>
+				</p>
+
+
+				<p>1 x $9.00</p>
+                <br>
+                
+                <p><span>The Hunger Game Series: Mocking Jay </span>
+				</p>
+
+
+				<p>1 x $15.00</p>
+				<hr>
+
+
+				<p><b>Total:</b> $43.00</p>
+			</div>
+		</div>
+ 
+	</div>
+</body>
+</html>
